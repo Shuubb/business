@@ -1,0 +1,87 @@
+html {
+  overflow-x: hidden;
+}
+html * {
+  text-align: center;
+  border-radius: 5px;
+  font-family: "Lato";
+}
+
+body {
+  background: url("../../images/IndexBackground.jpg");
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-color: #fffff0;
+  background-size: cover;
+  background-position: center;
+}
+
+main {
+  margin: 0 5%;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 15px;
+  justify-content: space-around;
+  align-items: center;
+}
+main > * {
+  margin: 15px;
+}
+main > *:has(p, h1, h2, h3, h4, h5, h6, article, table), main form {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: rgb(255, 255, 233);
+  padding: 15px;
+}
+
+a {
+  color: rgb(255, 255, 233);
+}
+a:hover {
+  color: bisque;
+  text-decoration: none;
+}
+
+/* Navbar stuff */
+.nav-link, button {
+  padding: 5px;
+  background: rgba(231, 77, 50, 0.831372549);
+  margin: 5px;
+}
+.nav-link:hover, button:hover {
+  background: #E74C32;
+}
+
+.navbar-brand > img {
+  width: 60px;
+}
+
+/* Footer stuff */
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: rgba(200, 200, 200, 0.5);
+  display: flex;
+  height: -moz-fit-content;
+  height: fit-content;
+  justify-content: flex-start;
+  font-size: 10px;
+  padding: 5px;
+}
+
+form > * {
+  text-align: start;
+  margin: 0;
+  display: block;
+}
+form > label {
+  margin-top: 5px;
+}
+form > button {
+  margin-top: 10px;
+}
+
+button {
+  border: none;
+}/*# sourceMappingURL=app.css.map */

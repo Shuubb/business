@@ -1,0 +1,8 @@
+{
+    "/js/app.js": "/js/app.js",
+    "/css/pages/admin/shared.css": "/css/pages/admin/shared.css",
+    "/css/pages/auth/login.css": "/css/pages/auth/login.css",
+    "/css/pages/contact.css": "/css/pages/contact.css",
+    "/css/pages/index.css": "/css/pages/index.css",
+    "/css/shared.css": "/css/shared.css"
+}

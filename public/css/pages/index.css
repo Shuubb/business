@@ -1,0 +1,23 @@
+/* Carousel stuff */
+#carouselContainer {
+  overflow: hidden;
+  max-width: 400px;
+}
+#carouselContainer, #carouselContainer img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#carouselContainer:hover {
+  transition: transform 1s;
+  transform: scale(1.1) translate(10%, 0);
+}
+#carouselContainer:not(:hover) {
+  transition: transform 1s;
+  transform: scale(1) translate(0);
+}
+
+@media only screen and (max-width: 600px) {
+  #carouselContainer:hover {
+    transform: scale(1.1);
+  }
+}

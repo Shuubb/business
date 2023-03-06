@@ -1,0 +1,7 @@
+#forgotPass {
+  font-size: smaller;
+}
+#forgotPass:hover {
+  -webkit-text-decoration: underline double;
+          text-decoration: underline double;
+}

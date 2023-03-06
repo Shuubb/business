@@ -1,0 +1,10 @@
+
+@import '../../variables';
+
+#forgotPass {
+    font-size: smaller; 
+    
+    &:hover {
+        text-decoration: underline double;
+    }
+}
